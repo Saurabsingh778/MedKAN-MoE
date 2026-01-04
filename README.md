@@ -38,8 +38,8 @@ Medical data is rarely clean. We subjected both models to Gaussian noise injecti
 
 ---
 
-## 🧬 The Data: Titans-v3
-The model was trained on **Titans-v3**, a custom-generated synthetic medical dataset rooted in **SNOMED-CT** and **ICD-10** ontologies. It tests three distinct levels of cognitive reasoning:
+## 🧬 The Data: SNOWMED-ICD10
+The model was trained on **SNOWMED-ICD10**, a custom-generated synthetic medical dataset rooted in **SNOMED-CT** and **ICD-10** ontologies. It tests three distinct levels of cognitive reasoning:
 
 1. **Direct Mapping:** Clinical finding $\rightarrow$ ICD Code.
 2. **Noisy Robustness:** Clinical notes with simulated typos and data entry errors.
