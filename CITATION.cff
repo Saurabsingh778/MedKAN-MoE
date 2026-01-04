@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Singh"
+  given-names: "Saurab"
+title: "MedKAN-MoE: Robust Medical Reasoning using Mixture-of-Experts KAN"
+version: 1.0.0
+date-released: 2024-01-04
+url: "https://github.com/Saurabsingh778/MedKAN-MoE"
