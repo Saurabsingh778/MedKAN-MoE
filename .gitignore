@@ -30,12 +30,6 @@ models/
 *.pth
 *.ckpt
 
-# ==========================
-# Results & Outputs
-# ==========================
-# Ignore the generated results folder
-results/
-
 # Ignore logs
 *.log
 training_log.txt
