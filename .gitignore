@@ -1,0 +1,47 @@
+# ==========================
+# Python & Environment Standard
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+.DS_Store
+
+# ==========================
+# Data (Files are too large for GitHub)
+# ==========================
+# Ignore the specific data directory
+data/
+
+# Ignore data file extensions in case they are moved elsewhere
+*.pt
+*.jsonl
+
+# ==========================
+# Models (Binary checkpoints are too large)
+# ==========================
+# Ignore the specific models directory and subdirectories
+models/
+
+# Ignore PyTorch model extensions
+*.pth
+*.ckpt
+
+# ==========================
+# Results & Outputs
+# ==========================
+# Ignore the generated results folder
+results/
+
+# Ignore logs
+*.log
+training_log.txt
+
+# ==========================
+# IDE / Editor Settings
+# ==========================
+.vscode/
+.idea/
